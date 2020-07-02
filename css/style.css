@@ -6,9 +6,10 @@ html {
     font-size: 62.5%;
 }
 
-body {
+.wrap {
     max-width: 1440px;
     margin: 0 auto;
+
 }
 
 img {
@@ -20,6 +21,7 @@ img {
 a {
     text-decoration: none;
 }
+
 
 textarea {
     resize: none;
@@ -94,7 +96,7 @@ header {
 /*========= fv ===========*/
 
 .fv {
-    background-image: url(/img/fv-bgi@2x.jpg);
+    background-image: url(../img/fv-bgi@2x.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,7 +240,7 @@ header {
 /*========= contact ===========*/
 
 .contact {
-    max-width: 700px;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -406,12 +408,7 @@ footer {
     }
 
     /*========= news ===========*/
-    /*========= contact ===========*/
-    .contact {
-        max-width: 345px;
-    }
 
-    /*========= contact ===========*/
     /*========= humberger ===========*/
     .menu-btn {
         display: block;
