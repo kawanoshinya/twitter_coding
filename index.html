@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coding_practice01</title>
+    <link rel="stylesheet" href="./css/doctor.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="h-inner">
+            <h1 class="site-title">
+                <a href="#">クリ☆スタ</a>
+            </h1>
+
+            <ul class="navigation">
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Cotact</a></li>
+            </ul>
+            <a class="menu-btn" id="menu-btn">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#about" id="nav-link1">About</a></li>
+                <li><a href="#service" id="nav-link2">Service</a></li>
+                <li><a href="#contact" id="nav-link3">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="fv">
+        <p class="fv-text">Cresta Design.</p>
+    </section>
+
+    <section class="about" id="about">
+        <div class="inner">
+            <h2>About</h2>
+            <div class="about-txt">
+                <h3>ミニマルで<br>洗練されたデザインを。</h3>
+                <p>近年、ミニマルなデザインが流行しています。そこで弊社では、クライアント企業様新規サービス等の課題に対してミニマルで洗練されたデザインを実現させることで解決のサポートを致します。もちろん全てのサービスにおいてミニマルなデザインが課題解決になるわけではないので、課題や今後のサービスの展開等しっかりとヒアリングを行なった上でご提案させて頂きます。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <div class="inner">
+            <h2>Service</h2>
+            <div class="service-content01">
+                <div class="service-txt">
+                    <h3>リリース時のサポートで<br>サービスのブランディングを</h3>
+                    <p>弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのブランディングを行わせて頂きます。</p>
+                </div>
+                <img src="img/service-image@2x.jpg">
+            </div>
+            <div class="service-content02">
+                <div class="service-txt">
+                    <h3>リリース後のサポートで<br>効果を最大化させる</h3>
+                    <p>弊社では、リリース後もサポートさせて頂きます。サービスはリリース後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を行うことで、デザインの効果を最大化させます。</p>
+                </div>
+                <img src="img/service-image02@2x.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="inner">
+            <h2>News</h2>
+            <div class="news-cards">
+                <div class="card">
+                    <img src="img/card-image1@2x.jpg">
+                    <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+                </div>
+                <div class="card">
+                    <img src="img/card-image2@2x.jpg">
+                    <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+                </div>
+                <div class="card">
+                    <img src="img/card-image3@2x.jpg">
+                    <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>お問い合わせ</h2>
+        <form>
+            <div class="form-box">
+                <label for="name" class="form-name">担当者名</label>
+                <input type="text" id="name">
+            </div>
+
+            <div class="form-box">
+                <label for="tel" class="form-name">電話番号</label>
+                <input type="text" id="tel">
+            </div>
+
+            <div class="form-box">
+                <label for="mail" class="form-name">担当者名</label>
+                <input type="text" id="mail">
+            </div>
+
+            <div class="form-area">
+                <label for="area" class="form-name">お問い合わせ内容</label>
+                <textarea id="area"></textarea>
+            </div>
+
+            <div class="form-btn">
+                <input type="submit" value="送信する">
+            </div>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>©︎crest.design all rights reserved</p>
+    </footer>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
