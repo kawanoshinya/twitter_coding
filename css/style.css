@@ -240,7 +240,7 @@ header {
 /*========= contact ===========*/
 
 .contact {
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -408,6 +408,14 @@ footer {
     }
 
     /*========= news ===========*/
+
+    /*========= contact ===========*/
+
+    .contact {
+        width: 90%;
+    }
+
+    /*========= contact ===========*/
 
     /*========= humberger ===========*/
     .menu-btn {
